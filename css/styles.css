@@ -109,6 +109,8 @@ a {
 
 .main-content {
 	flex-grow: 1;
+	padding-top: 20px;
+	padding-bottom: 50px;
 }
 
 .site-header__wrapper {
@@ -218,4 +220,92 @@ a {
 	left: -80px;
 	width: 160px;
 	height: 160px;
+}
+/* our colletin */
+.our-colletion {
+	position: relative;
+}
+.our-colletion__img-one {
+	position: absolute;
+	top: 0;
+	left: -201px;
+}
+.our-colletion__img-two {
+	position: absolute;
+	top: 50%;
+	right: -201px;
+}
+.our-colletion__img-three {
+	position: absolute;
+	bottom: 170px;
+	left: -201px;
+}
+
+.our-colletion__container {
+	background-image: url(../img/Rectangle.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: var(--gold-bg);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.our-colletion__title {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.2;
+	color: var(--dark-color);
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.our-colletion__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.our-colletion__item {
+	display: flex;
+	align-items: center;
+}
+
+.our-colletion__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.our-colletion__item:nth-child(2n) {
+	flex-direction: row-reverse;
+}
+
+.our-colletion__img {
+	width: 450px;
+	height: 375px;
+	object-fit: cover;
+	margin-right: 117px;
+}
+.our-colletion__img2 {
+	margin-right: 0;
+	margin-left: 117px;
+}
+
+.our-colletion-item__info {
+	max-width: 410px;
+}
+
+.our-colletion-item__info__title {
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 1.2;
+}
+
+.our-colleton-item__info__text {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.5;
 }
